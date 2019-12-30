@@ -1,0 +1,19 @@
+{
+  "name": "codecept-bug-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps",
+    "test:polly": "node pollyjs-raw.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pollyjs/adapter-puppeteer": "^3.0.0",
+    "@pollyjs/core": "^2.6.3",
+    "codeceptjs": "^2.3.6",
+    "globby": "^10.0.1",
+    "puppeteer": "^2.0.0"
+  }
+}
